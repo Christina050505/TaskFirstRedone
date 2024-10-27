@@ -1,0 +1,120 @@
+@font-face{
+    font-family: "Century Gothic";
+    src: url("../font/centurygothic.woff") format("woff");
+}
+body{
+    font-family: "Century Gothic";
+    background-color: #0F1D23;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.h-what-to-take {
+    font-size: 16px;
+}
+.h-reviews {
+    font-size: 16px;
+}
+.main-img{
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.main-text{
+    font-size: 18px;
+    width: 650px;
+}
+.specialist-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main-information{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-img{
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.card-text{
+    width: 300px;
+}
+h2{
+    text-align: center;
+}
+.first-card, .second-card, .third-card{
+    margin: 30px;
+}
+
+.what-to-take{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.map{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.address, .contacts{
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+a{
+	color: white;
+    	text-decoration: none;
+}
+a:hover{
+    color: #6B6A46;
+}
+.reviews{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    
+}
+.review-text{
+    color: rgb(255, 255, 255);
+}
+.first-review, .second-review, .third-review, .fourth-review{
+    margin: 10px;
+    width: 22%;
+    text-align: center;
+    padding: 5px;
+}
+.guest{
+    margin-right: 10px;
+}
+@media screen and (max-width: 1200px){
+    .main-img{
+        border-radius: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .main-text{
+        font-size: 18px;
+        width: 100%;
+    }
+    .what-to-take{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .first-review, .second-review, .third-review, .fourth-review{
+        margin: 0px;
+        width: 42%;
+        text-align: center;
+        padding: 5px;
+    }
+}
